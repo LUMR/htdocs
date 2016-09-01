@@ -1,6 +1,6 @@
 <?php 
 function db_connect(){
-	$conn = new mysqli('localhost','webuser','wwwlumr','book_sc');
+	$conn = new mysqli('localhost','test','test','book_sc');
 	if (!$conn) {
 		echo "<p class=\"warning\">Connect to database:".$conn->connect_error."</p>";
 		return false;
